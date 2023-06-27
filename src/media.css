@@ -1,0 +1,50 @@
+@media only screen and (max-width: 600px) {
+    body {
+        min-height: 120vh;
+        background: url('pexels-drift-shutterbug-2085998.jpg') no-repeat;
+        background-size: cover;
+        background-position: center;
+
+    }
+
+    header {
+        display: flex;
+        justify-content: space-between;
+        padding: 10px 30px;
+        background: transparent;
+        align-items: center;
+        z-index: 99; /*faz com que deixe o objeto com uma maior prioridade sobre os outros elementos */
+        border-bottom: 2px solid white;
+    }
+
+    .experience {
+        font-size: 1.2em;
+        color: white;
+        user-select: none; /* faz com que não consiga marcar o objeto. */
+    }
+
+    .navegaçao a {
+        display: none;
+    }
+
+    .navegaçao .btn-login {
+    width: 100px;
+    height: 40px;
+    border-radius: 15px;
+    background: transparent;
+    border: 2px solid white;
+    cursor: pointer;
+    font-weight: 700;
+    margin-left: 120px;
+    color: white;
+    transition: .5s;
+    font-size: .8em;
+    outline: none;
+    }
+    
+    .corpo {
+        top: -130px;
+    }
+}
+
+  

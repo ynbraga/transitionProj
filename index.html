@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto Transição</title>
+    <link rel="stylesheet" href="src/style.css">
+    <link rel="stylesheet" href="src/media.css">
+</head>
+
+<body>
+    <header>
+        <h2 class="experience">Transition</h2>
+        <nav class="navegaçao">
+            <a href="#">Início</a>
+            <a href="#">Serviços</a>
+            <a href="#">Contatos</a>
+            <a href="#">Ajuda</a>
+            <button class="btn-login">Entrar</button>
+        </nav>
+    </header>
+
+    <section>
+        <div class="corpo">
+            <span class="icone-fechar"><ion-icon name="close-outline"></ion-icon></span>
+
+            <div class="input-box login">
+                <h1>Acesse sua conta</h1>
+                <form action="#">               
+                    <div class="input-form">
+                        <span class="icon"><ion-icon name="person-outline"></ion-icon></ion-icon></span>
+                        <input type="text" required>
+                        <label>Login</label>
+                    </div>
+                    <div class="input-form">
+                        <span class="icon"><ion-icon name="lock-closed-outline"></ion-icon></span>
+                        <input type="password" required>
+                        <label>Senha</label>
+                    </div>
+                    <div class="esqueci-senha">
+                        <label for="input-check"><input type="checkbox" name="" id="input-check">
+                           Lembrar senha</label>                       
+                        <a href="#">Esqueceu sua senha?</a>
+                    </div>
+                        <button type="submit" class="btn">Login</button>
+                    <div class="login-registro">
+                        <p>Ainda não possui conta? <a href="#" class="registro-link">Crie sua conta</a></p>
+                    </div>
+                </form>
+            </div>
+
+            <div class="input-box registro">
+                <h1>Crie sua conta</h1>
+                <form action="#">               
+                    <div class="input-form">
+                        <span class="icon"><ion-icon name="person-outline"></ion-icon></ion-icon></span>
+                        <input type="text" required>
+                        <label>Login</label>
+                    </div>
+                    <div class="input-form">
+                        <span class="icon"><ion-icon name="mail-outline"></ion-icon></span>
+                        <input type="email" required>
+                        <label>Email</label>
+                    </div> 
+                    <div class="input-form">
+                        <span class="icon"><ion-icon name="lock-closed-outline"></ion-icon></span>
+                        <input type="password" required>
+                        <label>Senha</label>
+                    </div>
+                    <div class="esqueci-senha">
+                        <label for="input-check"><input type="checkbox" name="" id="input-check">
+                            Concordo com os termos e condições</label>                       
+                    </div>
+                        <button type="submit" class="btn">Criar</button>
+                    <div class="login-registro">
+                        <p>Já possui conta? <a href="#" class="login-link">Acesse sua conta</a></p>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+    
+    <script src="src/script.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>
