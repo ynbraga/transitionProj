@@ -277,5 +277,24 @@ header {
     text-decoration: underline;
 }
 
+footer {
+    position: fixed;
+    bottom: 0;
+    background: transparent;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    border-top: 2px solid white;
+    color: white;
+}
 
+footer a {
+    text-decoration: none;
+    color:  #ffffff;
+    font-weight: 600;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
 
